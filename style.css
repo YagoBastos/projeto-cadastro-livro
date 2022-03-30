@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2:"Permanent Marker",cursive,serif;
+}
+*{
+margin: 0px;
+padding: 0px;
+font-size: 1em;
+}
+html, body{
+    min-height: 100vh;
+    background-color: darkgrey;
+    background-image: url(_img/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+header{
+    background-color: #1C594E;
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+}
+header > h1{
+    padding-top:20px;
+    font-family: var(--font2);
+    font-size: 3em;
+    font-weight: normal;
+}
+main{
+    font-family: var(--font1);
+    padding: 10px;
+    width: 600px;
+    line-height: 2em;
+    font-size: 1em;
+    margin: auto;
+    background-color: #1C594E;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+input, select{
+    width: 200px;
+}
+#capa{
+    width: auto;
+}
+footer{
+    font-family: var(--font2);
+    background-color: #1C594E;
+    color: white;
+    padding: 10px;
+}
+#autor_site{
+    display: flex;
+
+}
+#nome{
+    width: 20vw;
+    font-size: 1.2em;
+}
+#direita{
+    width: 80vw;
+    text-align: right;
+}
