@@ -18,6 +18,7 @@ html, body{
 }
 header{
     background-color: #1C594E;
+    background-image: url(_img/Redirect\ Notice.gif);
     color: white;
     text-align: center;
     margin-bottom: 60px;
@@ -36,6 +37,7 @@ main{
     font-size: 1em;
     margin: auto;
     background-color: #1C594E;
+    background-image: url(_img/Redirect\ Notice.gif);
     color: white;
     border-radius: 10px;
     margin-bottom: 40px;
@@ -49,8 +51,11 @@ input, select{
 footer{
     font-family: var(--font2);
     background-color: #1C594E;
+    background-image: url(_img/Redirect\ Notice.gif);
     color: white;
     padding: 10px;
+    position: relative;
+    top: 50px;
 }
 #autor_site{
     display: flex;
